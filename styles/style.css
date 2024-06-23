@@ -1,1 +1,47 @@
 /* место для вашего кода */
+
+
+
+.header {
+  position: absolute;
+  /* top:0;
+  left:0; */
+  width: 100%;
+  background-color: #fff;
+  padding:92px 0 96px;
+}
+
+.header__container{
+  border:1px solid black;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.header__menu {
+}
+.menu {
+
+}
+.header__menu-list {
+}
+.menu-list {
+}
+.header__links-list-item {
+}
+.menu-list-item {
+}
+.header__link {
+}
+.header__link_active {
+}
+.menu-link {
+}
+.menu-link_active {
+}
+.header__logo {
+}
+.header__logo-image {
+}
+.header__address {
+}
+.address {
+}
