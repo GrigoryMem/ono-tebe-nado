@@ -97,12 +97,19 @@
   background-image: url("../images/cover.jpg");
   background-repeat: no-repeat;
   background-size:cover;
+  color:#fff;
+ 
+}
+
+.cover__container {
+  display: flex;
+  flex-direction: column;
+  gap:135px;
 }
 
 .cover__title {
   position: relative;
   z-index: 200;
-  color:#fff;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 100px;
@@ -146,14 +153,36 @@
     /* letter-spacing:-5px; */
 }
 .cover__description {
+  /* position: relative; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap:79px; */
+  padding:0 25px 0 55px;
+  z-index: 500;
 }
 .cover__description-text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.27;
+  text-transform: uppercase;
+  word-spacing: 18px;
 }
-.cover__button {
-}
+
 .button {
+  padding:0;
+  border:0;
+  font:inherit;
+  color:inherit;
+  background-color: transparent;
+  cursor: pointer;
 }
 .bet-button {
+  padding:12px 32px 11px 32px;
+  border:1px solid #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size:22px;
 }
 
 
