@@ -74,3 +74,88 @@
 .adress__street {
   letter-spacing: 0.26px;
 }
+
+
+/* cover */
+.overlay{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+.cover {
+  position: relative;
+  /* padding: 165px 27px 51px 25px; */
+  padding: 165px 0px 51px 0px;
+  margin-top:293px;
+  background-image: url("../images/cover.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.cover__title {
+  position: relative;
+  z-index: 200;
+  color:#fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 100px;
+  
+
+}
+
+.aligned-text{
+  display: block;
+  line-height: 1.16;
+  letter-spacing:30px;
+  
+}
+
+.aligned-text_left{
+  word-spacing: -30px;
+  padding-left:27px;
+}
+
+
+.aligned-text_center {
+  text-align: center;
+  letter-spacing:30px;
+  line-height: 1.4;
+  word-spacing: -27px;
+  padding-right: 27px;
+}
+
+.aligned-text_center span{
+  letter-spacing:25px;
+
+}
+.aligned-text_right {
+  letter-spacing:28px;
+  word-spacing: -27px;
+  text-align: right;
+  line-height: 1;
+}
+
+.aligned-text_right span {
+    /* letter-spacing:-5px; */
+}
+.cover__description {
+}
+.cover__description-text {
+}
+.cover__button {
+}
+.button {
+}
+.bet-button {
+}
+
+
+
+
