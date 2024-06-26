@@ -298,16 +298,9 @@
 
 }
 
-.container {
-}
-.about__column {
-}
-
 .about__column_for-logo {
   justify-self: center;
-  
 }
-
 
 .about__logo {
   position: relative;
@@ -318,6 +311,7 @@
   
   
 }
+
 .about__logo-image {
   position: absolute;
   top:50%;
@@ -329,8 +323,7 @@
 .about__title {
   padding-top:101px;
 }
-.heading {
-}
+
 .about__text {
   margin-top: 100px;
   display: flex;
@@ -341,5 +334,7 @@
   line-height: 1.2;
   letter-spacing: 0.6px;
  }
+
+ 
 
 
