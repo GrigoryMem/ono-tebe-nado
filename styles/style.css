@@ -24,7 +24,7 @@
   flex-wrap: wrap;
   align-items: center;
   column-gap: 31px;
-  padding: 44px 22px 39px 25px;
+  padding: 43px 22px 39px 26px;
   list-style-position: outside;
   list-style-type: circle;
 }
@@ -35,7 +35,7 @@
 
 .menu-link {
   border-bottom: 1px #000 solid;
-  letter-spacing: 0.28px;
+  letter-spacing: 0.25px;
   text-decoration: none;
 }
 .menu-link_active {
