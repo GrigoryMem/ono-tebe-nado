@@ -315,7 +315,6 @@
 }
 
 .about__text {
-  /* margin-top: 100px; */
   display: flex;
   flex-direction: column;
   gap:24px;
