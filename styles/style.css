@@ -51,28 +51,29 @@
 
 .header__address {
   justify-self: start;
-  padding:8px 26px 2px 185px;
+  padding:7px 26px 2px 187px;
 
 }
 
 .address {
   font-size:18px;
   font-style:normal;
-  line-height: 1.35;  
+  line-height: 1.36;
+  
 }
 
 .address__tel {
   letter-spacing: 0.17px;
-  text-underline-offset:3px;
+  text-underline-offset:4px;
 }
 
 .address__mail {
-  letter-spacing: 0.27px;
+  letter-spacing: 0.1px;
   text-underline-offset:3px;
 }
 
 .address__street {
-  letter-spacing: 0.26px;
+  letter-spacing: 0.05px;
 }
 
 /* cover */
