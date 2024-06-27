@@ -23,9 +23,9 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  column-gap:30px;
-  padding:44px 27px 39px 27px;
-  list-style-position:outside;
+  column-gap: 31px;
+  padding: 44px 22px 39px 25px;
+  list-style-position: outside;
   list-style-type: circle;
 }
 
@@ -35,11 +35,12 @@
 
 .menu-link {
   border-bottom: 1px #000 solid;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.28px;
   text-decoration: none;
 }
 .menu-link_active {
   border-bottom:none;
+ 
 }
 
 .header__logo-image {
