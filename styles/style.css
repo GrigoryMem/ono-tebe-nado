@@ -1,7 +1,4 @@
 .header {
-  position: absolute;
-  top:0;
-  left:0;
   width: 100%;
   padding: 92px 0 96px;
   background-color: #fff;
@@ -89,7 +86,6 @@
 
 .cover {
   position: relative;
-  margin-top:293px;
   padding: 165px 0px 51px 0px;
   color:#fff;
   background-image: url("../images/cover.jpg");
