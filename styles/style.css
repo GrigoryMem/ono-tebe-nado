@@ -106,25 +106,24 @@
   font-weight: 700;
   font-size: 100px;
   text-transform: uppercase;
+  padding:0 27px;
 }
 
 .aligned-text{
   display: block;
   line-height: 1.16;
-  letter-spacing:30px;
+  letter-spacing:31px;
 }
 
 .aligned-text_left{
-  padding-left:27px;
-  word-spacing: -30px;
+ word-spacing: -26px;
 }
 
 .aligned-text_center {
-  padding-right: 27px;
   line-height: 1.4;
-  letter-spacing:30px;
+  /* letter-spacing:45px; */
   text-align: center;
-  word-spacing: -27px;
+  /* word-spacing: -27px; */
 }
 
 .aligned-text_center span {
@@ -155,6 +154,7 @@
 }
 
 .button {
+  font-family: "Raleway", sans-serif;
   border:0;
   padding:0;
   color:inherit;
