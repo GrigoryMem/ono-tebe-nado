@@ -40,6 +40,9 @@
  
 }
 
+.header__logo{
+  display: block;
+}
 .header__logo-image {
   display: block;
   width: 100%;
