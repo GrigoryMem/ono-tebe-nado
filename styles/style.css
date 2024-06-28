@@ -383,7 +383,19 @@
   list-style-type: none;
 }
 
-.footer__social-icon img{
+.footer__social-icon {
+    display: block;
+    height: 48px;
+    width: 48px;
+}
+.footer__social-list-item:hover .footer__social-icon{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    
+    transition: all .4s ease-in-out;
+}
+
+.footer__social-icon-image{
   width:48px;
   height: 48px;
 }
