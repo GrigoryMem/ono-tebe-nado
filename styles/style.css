@@ -289,7 +289,7 @@
 /* about */
 
 .about {
-  padding:36px 0px 182px 0px; 
+  padding:36px 0px 180px 0px; 
 }
 .about__container {
     display: grid;
@@ -346,16 +346,23 @@
 
 .footer__container {
   display: grid;
-  grid-template-columns: 1fr 149px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 105px;
   align-items: start;
   padding:0 26px;
 }
 
+.footer__address {
+  padding-left:1px;
+}
+
+.footer__address .address__mail {
+  text-underline-offset:4px;
+}
 .footer__menu {
   justify-self:center;
   align-self: self-start;
-  line-height: 1.34;
+  line-height: 1.32;
 }
 
 .footer__menu-list {
@@ -364,9 +371,9 @@
  
 }
 
-.footer__menu-link {
-  padding-bottom:2px;
-  letter-spacing: 1.487px;
+.footer__menu-link.menu-link {
+    padding:3px 2px 1px 4px;
+    letter-spacing: 1.25px;
 }
 
 .footer__social-list {
