@@ -168,7 +168,7 @@
   font-size: 22px;
   line-height: 1.27;
   text-transform: uppercase;
-  word-spacing: 18px;
+  word-spacing: 18.5px;
 }
 
 .button {
@@ -198,7 +198,7 @@
 /* lots */
 
 .lots {
-  padding:179px 0 146px;
+  padding:177px 0 146px;
   background-color: #fff;
 }
 
@@ -278,19 +278,18 @@
 
 .lots__look-more-link {
   display: block;
-  margin-top: 30px;
+  margin-top: 29px;
   margin-left: 40px;
   color:#000;
   font-weight: 400;
   font-size:20px;
-  letter-spacing:0.5px;
   text-underline-offset: 4px;
 }
 
 /* about */
 
 .about {
-  padding:39px 0px 182px 0px; 
+  padding:36px 0px 182px 0px; 
 }
 .about__container {
     display: grid;
@@ -324,7 +323,8 @@
 
 .about__title {
   align-self: center;
-  padding-left:2px;
+  padding:1px 0 0 5px;
+ 
 }
 
 .about__text {
