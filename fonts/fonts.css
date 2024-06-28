@@ -14,18 +14,6 @@
   font-family: 'Raleway';
   src:
     local('Raleway'),
-    local('Raleway Medium'),
-    local('Ralewaymedium'),
-    url(./Raleway-Medium.woff2) format('woff2'),
-    url(./Raleway-Medium.woff) format('woff');
-  font-weight:500;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Raleway';
-  src:
-    local('Raleway'),
     local('Raleway Bold'),
     local('Ralewaybold'),
     url(./Raleway-Bold.woff2) format('woff2'),
