@@ -125,9 +125,8 @@
 .aligned-text_center {
   line-height: 1.4;
   text-align: center;
-  /* word-spacing: -27px; */
-  letter-spacing:2px;
-  /* padding-right:45px; */
+  letter-spacing:5px;
+
 
  
 }
@@ -136,7 +135,7 @@
   letter-spacing:31px;
 }
 .aligned-text_center_last {
-  letter-spacing:87px;
+  letter-spacing:85px;
 
 }
 
