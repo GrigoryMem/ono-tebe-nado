@@ -1,10 +1,18 @@
+.button {
+  font-family: "Raleway", sans-serif;
+  border:0;
+  padding:0;
+  color:inherit;
+  background-color: transparent;
+}
+
 .header {
   width: 100%;
   padding: 92px 0 96px;
   background-color: #fff;
 }
 
-.header__container {
+.header.container {
   display: grid;
   grid-template-columns: 1fr 148px 1fr;
   grid-template-rows: 105px;
@@ -189,14 +197,6 @@
   word-spacing: 18.5px;
 }
 
-.button {
-  font-family: "Raleway", sans-serif;
-  border:0;
-  padding:0;
-  color:inherit;
-  background-color: transparent;
- 
-}
 .bet-button {
   border:1px solid #fff;
   padding:12px 32px 11px 32px;
