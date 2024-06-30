@@ -357,30 +357,27 @@
   padding-left:1px;
 }
 
-.footer__address .address__mail {
-  text-underline-offset:4px;
-}
 .footer__menu {
   justify-self:center;
   align-self: self-start;
-  line-height: 1.32;
+ 
 }
 
 .footer__menu-list {
   text-align: center;
   list-style-type: none;
- 
+  line-height: 1.17;
+  
 }
 
-.footer__menu-link.menu-link{
+.footer__menu-link {
   border-bottom: none;
   text-decoration: underline;
-  text-underline-offset:5px;
+  text-underline-offset:4px;
 }
 
-.footer__menu-link.menu-link {
-    padding:3px 2px 1px 4px;
-    letter-spacing: 1.25px;
+.menu-link_active {
+  text-decoration: none;
 }
 
 .footer__social-list {
