@@ -45,12 +45,6 @@
   list-style-type: none;
 }
 
-.menu-list-item:hover {
-  border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.6);
-  transition: all .3s linear;
- 
-}
 .menu-link {
   border-bottom: 1px #000 solid;
   letter-spacing: 0.25px;
@@ -58,15 +52,18 @@
   scroll-behavior: smooth;
   
 }
-.menu-link_active {
-  border-bottom:none;
-}
 
-.menu-list-item:hover .menu-link {
+.menu-link:hover {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: all .3s linear;
   border-bottom:none;
   color:#fff;
-  transition: all .3s linear;
-  transition: all .3s linear;
+ 
+}
+
+.menu-link_active {
+  border-bottom:none;
 }
 
 .header__logo {
@@ -98,8 +95,7 @@
   letter-spacing: 0.05px;
 }
 
-.address__tel:hover,
-.address__mail:hover {
+.address__link:hover {
   border-radius: 5px;
   color:#fff;
   background-color: rgba(0, 0, 0, 0.6);
@@ -376,7 +372,7 @@
   text-underline-offset:4px;
 }
 
-.menu-link_active {
+.footer__menu-link.menu-link_active {
   text-decoration: none;
 }
 
@@ -392,7 +388,7 @@
     width: 48px;
     height: 48px;
 }
-.footer__social-list-item:hover .footer__social-icon{
+.footer__social-link:hover .footer__social-icon{
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.6);
     
