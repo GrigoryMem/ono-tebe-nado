@@ -90,15 +90,15 @@
   text-underline-offset:4px;
 }
 
-.address__street {
-  letter-spacing: 0.05px;
-}
-
 .address__link:hover {
   border-radius: 5px;
   color:#fff;
   background-color: rgba(0, 0, 0, 0.6);
   transition: all .3s linear;
+}
+
+.address__street {
+  letter-spacing: 0.05px;
 }
 
 /* cover */
