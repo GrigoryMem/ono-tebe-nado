@@ -217,14 +217,17 @@
 .lots__heading {
   padding-left:40px;
 }
+
 .lots__heading:not(:last-child) {
   margin-bottom: 27px;
 }
+
 .heading{
   font-weight: 700;
   font-size:40px;
   text-transform: uppercase;
 }
+
 .lots__card-list {
   display:flex;
   flex-wrap:wrap;
