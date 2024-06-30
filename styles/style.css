@@ -55,11 +55,10 @@
 
 .menu-link:hover {
   border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.6);
-  transition: all .3s linear;
   border-bottom:none;
   color:#fff;
- 
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: all .3s linear;
 }
 
 .menu-link_active {
@@ -69,6 +68,7 @@
 .header__logo {
   display: block;
 }
+
 .header__logo-image {
   display: block;
   width: 100%;
@@ -78,7 +78,6 @@
 .header__address {
   justify-self: start;
   padding:7px 26px 2px 187px;
-
 }
 
 .address {
@@ -103,7 +102,6 @@
 }
 
 /* cover */
-
 
 .cover {
   position: relative;
@@ -292,11 +290,12 @@
 }
 
 /* about */
+
 .about {
-    display: grid;
-    grid-template-columns: 334px 1fr;
-    gap:20px;
-    padding:36px 24px 180px; 
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  gap:20px;
+  padding:36px 24px 180px;   
 }
 
 .about__column_for-logo {
@@ -341,6 +340,7 @@
  }
 
 /* footer */
+
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -360,9 +360,9 @@
 }
 
 .footer__menu-list {
+  line-height: 1.17;
   text-align: center;
   list-style-type: none;
-  line-height: 1.17;
   
 }
 
@@ -384,18 +384,17 @@
 }
 
 .footer__social-icon {
-    display: block;
-    width: 48px;
-    height: 48px;
+  display: block;
+  width: 48px;
+  height: 48px;
 }
-.footer__social-link:hover .footer__social-icon{
-    border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.6);
-    
-    transition: all .4s ease-in-out;
+.footer__social-link:hover .footer__social-icon {
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: all .4s ease-in-out;
 }
 
-.footer__social-image{
+.footer__social-image {
   width:48px;
   height: 48px;
 }
