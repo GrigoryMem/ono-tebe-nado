@@ -90,14 +90,8 @@
   line-height: 1.36;
 }
 
-.address__tel {
-  letter-spacing: 0.17px;
+.address__link {
   text-underline-offset:4px;
-}
-
-.address__mail {
-  letter-spacing: 0.1px;
-  text-underline-offset:3px;
 }
 
 .address__street {
